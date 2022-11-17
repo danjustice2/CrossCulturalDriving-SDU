@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -265,6 +265,8 @@ MonoBehaviour:
     m_SceneName: NSI2
   - m_SceneAsset: {fileID: 102900000, guid: 037735af4327b56478c01e2dbb57cb01, type: 3}
     m_SceneName: NSI3
+  - m_SceneAsset: {fileID: 102900000, guid: adf1ef7931f516e438b49b6f9b92c923, type: 3}
+    m_SceneName: OBST1
   LastLoadedVisualScene: 
   ServerisRunning: 0
   NotVisitedButton:
