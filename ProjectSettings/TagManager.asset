@@ -7,6 +7,8 @@ TagManager:
   - Road
   - Clone
   - TrafficLight
+  - Cyclist
+  - TestHest
   layers:
   - Default
   - TransparentFX

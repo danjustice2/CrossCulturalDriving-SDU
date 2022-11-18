@@ -7,10 +7,13 @@ namespace BezierSolution
 	[HelpURL( "https://github.com/yasirkula/UnityBezierSolution" )]
 	public class BezierWalkerWithTime : BezierWalker
 	{
+
+		public bool shouldMove = true;
 		public BezierSpline spline;
 		public TravelMode travelMode;
 
-		public float travelTime = 5f;
+		public float travelTime = 90f;
+		
 		[SerializeField]
 		[Range( 0f, 1f )]
 		private float m_normalizedT = 0f;
@@ -39,6 +42,16 @@ namespace BezierSolution
 
 		private void Update()
 		{
+			/*
+			 * If 'm_normalizedT' is at static, non-changing number, then the associated GameObject will 
+			 * no longer move along its Bezier line. Pressing T on the keyboard is proof-of-concept functionality
+			 * to test that the GameObjects can be stopped traversing their Bezier line.
+			 */
+			if (!this.shouldMove || Input.GetKey(KeyCode.T))
+			{
+				return; 
+			}
+
 			Execute( Time.deltaTime );
 		}
 
