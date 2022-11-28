@@ -65,6 +65,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TrafficScenarios/NSI3.unity
     guid: 037735af4327b56478c01e2dbb57cb01
+  - enabled: 1
+    path: Assets/Scenes/VisualScenes/ABC_Visual.unity
+    guid: 30af079119899bf45aef84bf0b27c7ff
+  - enabled: 1
+    path: Assets/Scenes/TrafficScenarios/ABC1.unity
+    guid: 5263e26ce936d4c4ab2e1036c271a2bf
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6cc985e87a90ef945af87cf42ba1fa7c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: be6b7f0c3817d8f41a09a175cdf86829, type: 2}

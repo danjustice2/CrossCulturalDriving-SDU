@@ -21,7 +21,7 @@ public class makeObjectStop : MonoBehaviour
             this.isCyclistInZone= true;
         }
 
-        if (other.tag == "TestHest")
+        if (other.tag == "Player")
         {
             this.isPlayerInZone = true;
         }
@@ -41,7 +41,7 @@ public class makeObjectStop : MonoBehaviour
             this.isCyclistInZone = false;
         }
 
-        if (other.CompareTag("TestHest"))
+        if (other.CompareTag("Player"))
         {
             this.isPlayerInZone = false;
         }
