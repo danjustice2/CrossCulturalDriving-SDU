@@ -33546,7 +33546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4533943726500818, guid: 2224b63330275e5478ef024b2913f937, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.9
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: 4533943726500818, guid: 2224b63330275e5478ef024b2913f937, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33870,7 +33870,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 7.76, y: 7.63}
   m_BounceIntensity: 1
@@ -51638,6 +51638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88548246fe732c245b1ec94c3f91e791, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cyclist: {fileID: 1179315690}
 --- !u!65 &1538194997
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -55,6 +55,8 @@ public class makeObjectStop : MonoBehaviour
 
     private void MakeCyclistMove(bool shouldMove)
     {
-        this.cyclist?.GetComponent<BezierSolution.BezierWalkerWithTime>()?.shouldMove = shouldMove;
+        //this.cyclist.GetComponent<BezierSolution.BezierWalkerWithTime>().shouldMove = shouldMove;
+        cyclist.GetComponent<BezierSolution.BezierWalkerWithTime>().enabled = shouldMove; // I've tested this and disabling the component script seems to have the desired effect without throwing an error -Dan
+        
     }
 }
