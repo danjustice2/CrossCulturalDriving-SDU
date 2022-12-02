@@ -265,6 +265,8 @@ MonoBehaviour:
     m_SceneName: NSI2
   - m_SceneAsset: {fileID: 102900000, guid: 037735af4327b56478c01e2dbb57cb01, type: 3}
     m_SceneName: NSI3
+  - m_SceneAsset: {fileID: 102900000, guid: 5263e26ce936d4c4ab2e1036c271a2bf, type: 3}
+    m_SceneName: ABC1
   LastLoadedVisualScene: 
   ServerisRunning: 0
   NotVisitedButton:
