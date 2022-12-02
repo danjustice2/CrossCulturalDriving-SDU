@@ -55,6 +55,6 @@ public class makeObjectStop : MonoBehaviour
 
     private void MakeCyclistMove(bool shouldMove)
     {
-        this.cyclist.GetComponent<BezierSolution.BezierWalkerWithTime>().shouldMove = shouldMove;
+        this.cyclist?.GetComponent<BezierSolution.BezierWalkerWithTime>()?.shouldMove = shouldMove;
     }
 }
